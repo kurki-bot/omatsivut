@@ -1,0 +1,45 @@
+body { 
+    background-image: url('../img/sand.jpg');
+    background-size: cover;
+  }
+  .container {
+    width:50%;
+    border: 1px solid red;
+    margin: 50px auto 50px auto;
+  }
+  h1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  /* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: rgb(0, 0, 0); /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: rgb(255, 0, 0); /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ff0000; /* Grey background color */
+  color: rgb(0, 0, 0); /* Black text color */
+}
